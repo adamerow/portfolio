@@ -1,0 +1,66 @@
+/********************
+YOUR STYLES
+*******************/
+
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Gallery Styling */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  background: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em;
+  width: 20em;
+}
+
+.lg-image
+{
+    box-shadow: 0 0 50px gray;
+}
+
+/********************
+MEDIA QUERIES
+*******************/
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) 
+{ 
+
+    /* Diagnostic Styling. */
+    body
+    {
+       background: red;
+    }
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. */
+  body {
+       background: green;
+  }
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. */
+  body {
+       background: blue;
+  }
+
+}
