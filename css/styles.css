@@ -4,11 +4,22 @@ YOUR STYLES
 
 
 /* Header */
-header {
+header
+{
   display: flex;
-  justify-content: center;
 }
 
+.home
+{
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+header h1
+{
+    flex-grow: 1;
+}
 
 /* Gallery Styling */
 .gallery {
@@ -31,36 +42,81 @@ figure {
     box-shadow: 0 0 50px gray;
 }
 
+/**************/
+/* TYPOGRAPHY */
+/**************/
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:600,300italic);
+
+/* Add font: Josefin */
+p, li, figcaption
+{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+}
+
+h1, a, h2, h3, h4, button, ul
+{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+}
+
+/*******/
+
+h1
+{
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2
+{
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+h3
+{
+    font-size: 20px;
+}
+
 /********************
 MEDIA QUERIES
 *******************/
 /* Mobile: 320px = 20em */
+/*
 @media screen and (min-width: 20em) 
 { 
 
-    /* Diagnostic Styling. */
+     Diagnostic Styling. 
     body
     {
        background: red;
     }
 }
+*/
 
 /* Tablet:  768px = 160em */
+/*
 @media screen and (min-width: 48em)  {
 
-  /* Diagnostic Styling. */
+   Diagnostic Styling. 
   body {
        background: green;
   }
 
 }
+*/
 
 /* Desktop: 1280px = 80em */
+/*
 @media screen and (min-width: 80em) { 
   
-  /* Diagnostic Styling. */
+   Diagnostic Styling. 
   body {
        background: blue;
   }
 
-}
+}*/
