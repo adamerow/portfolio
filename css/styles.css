@@ -1,12 +1,16 @@
 /********************
 YOUR STYLES
 *******************/
-
+body
+{
+    background-image: url('../img/wool.png');
+}
 
 /* Header */
 header
 {
-  display: flex;
+    display: flex;
+    justify-content: space-around;
 }
 
 .home
@@ -19,27 +23,33 @@ header
 header h1
 {
     flex-grow: 1;
+    padding-right: 20px;
 }
 
 /* Gallery Styling */
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 figure {
-  background: #eee;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1em;
-  width: 20em;
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    width: 20em;
 }
 
 .lg-image
 {
     box-shadow: 0 0 50px gray;
+}
+
+footer
+{
+    padding-left: 10px;
 }
 
 /**************/
@@ -55,7 +65,7 @@ p, li, figcaption
     font-weight: 400;
 }
 
-h1, a, h2, h3, h4, button, ul
+h1, a, h2, h3, h4, button, ul, strong
 {
     font-family: 'Josefin Slab', serif;
     font-weight: 700;
@@ -80,6 +90,17 @@ h2
 h3
 {
     font-size: 20px;
+}
+
+strong
+{
+    font-size: 1.5em;
+    color: #809f21;
+}
+
+.ppy-outer strong
+{
+    margin-bottom: 5px;
 }
 
 /********************

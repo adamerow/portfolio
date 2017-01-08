@@ -1,11 +1,18 @@
 // ACTIVATE GALLERY
 $('figure').lightGallery();
+    
+$(document).ready(function () {
+    var options1 = {
+    }
+    var options2 = {
+        caption:    false,
+        navigation: 'permanent',
+        direction:  'left'
+    }
+    var options3 = {
+        caption:    'permanent',
+        opacity:    1
+    }
 
-// Intialize Masonry
-$('.masonry').masonry({
-	itemSelector: 'section',
-	// MUST MATCH CSS
-    columnWidth: 400,
-	gutter: 10,
-	isFitWidth: true
+    $('.ppy').popeye(options1);
 });
