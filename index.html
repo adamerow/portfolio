@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/jquery.popeye.css">
     <link rel="stylesheet" href="css/jquery.popeye.style.css">
+    <link rel="stylesheet" href="css/video.styles.css">
 </head>
 
 <body>
@@ -24,26 +25,33 @@
     <main class="gallery" id="video-gallery">
         
 <!--   VIDEOS    -->
-        <div class="ppy videos">
+            <div class="ppy">
+                <div class="outline">
+                    <article class="video"> 
+                        <video poster="http://placehold.it/240x170">
+                            <source src="img/superman.mp4">
+
+                            <div class="loading">
+                            I have a bad feeling about this... <br>
+                            ... your browser doesn't support the video format!
+                            </div>
+                        </video>    
+                    </article>
+                    
+                    <div class="caption">
+                        <span>
+                            <strong>Superman</strong><br />Kinetic typography project for class. Audio is from Quentin Tarantino's Kill Bill Vol. 2<br/>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+<!--  AUDIO  -->
+
+<div class="ppy audio">
 
                 <!--  images  -->
                 <ul class="ppy-imglist">
-                    <li>
-                        <a href="http://farm4.static.flickr.com/3461/3760102198_0e3de1eec3.jpg">
-                            <img src="http://farm4.static.flickr.com/3461/3760102198_0e3de1eec3_m.jpg" alt="" />
-                        </a>
-                        <span class="ppy-extcaption">
-                            <strong>Turkey Butter-Ball Soup</strong><br />Video class final project. This was my first time using seperate video and audio tracks.<br />
-                        </span>
-                    </li>
-                    <li>
-                        <a href="http://farm2.static.flickr.com/1317/908814138_9fa713a687.jpg">
-                            <img src="http://farm2.static.flickr.com/1317/908814138_9fa713a687_m.jpg" alt="" />
-                        </a>
-                        <span class="ppy-extcaption">
-                            <strong>Superman</strong><br />Kinetic typography project for class. Audio is from Quentin Tarantino's Kill Bill Vol. 2<br />
-                        </span>
-                    </li>
                     <li>
                         <a href="http://farm4.static.flickr.com/3357/3633927491_d8864d5235.jpg">
                             <img src="http://farm4.static.flickr.com/3357/3633927491_d8864d5235_m.jpg" alt="" />
@@ -86,6 +94,7 @@
                 </div>
 
             </div>
+
 <!--  PROJECTS  -->
         <div class="ppy">
 
@@ -377,6 +386,7 @@
     <script src="js/jquery.popeye-2.1.js"></script>
     <script scr="js/jquery.popeye-2.1.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/video.js"></script>
 
 </body>
 </html>

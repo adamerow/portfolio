@@ -45,3 +45,21 @@ $('.ppy').click(function()
         $(this).parent().width(width);
     }
 });
+
+$('video').hover(function()
+{
+    $('.caption').animate(
+    {height: '70px'}, 90, 'linear'
+    );
+    
+//    $('.outline .caption').css({'padding': '10px'});
+});
+
+$('video, .outline').mouseout(function()
+{
+    $('.caption').animate(
+    {height: '0px'}, 90, 'linear'
+    );
+    
+//    $('.outline .caption').css({'padding': '0px'});
+});

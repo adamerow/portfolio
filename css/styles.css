@@ -52,6 +52,36 @@ footer
     padding-left: 10px;
 }
 
+/*  VIDEO/AUDIO  */
+.ppy .outline
+{
+    padding: 10px;
+    border: 1px solid #e1f1a1;
+    border-radius: 10px;
+    background: #eff9c7;
+    display: block;
+    width: 240px;
+    height: 173px;
+}
+
+.ppy .caption
+{
+    margin: 26px 0 0 -10px;
+    padding: 0 10px 0 10px;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    color: #809f21;
+    background: #eeffa8;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #ccc;
+/*    visibility: hidden;*/
+    position: relative;
+    z-index: 1;
+    width: 240px;
+    height: 0px;
+    overflow: hidden;
+}
+
 /**************/
 /* TYPOGRAPHY */
 /**************/
