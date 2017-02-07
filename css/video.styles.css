@@ -382,11 +382,7 @@ article.video .spinner:before {
     font-size: 12px;
   }
 }
-body,
-html {
-  background: #222;
-  color: #222;
-}
+
 .intro {
   font-family: "Source Sans Pro", Arial, Helvetica;
   color: #ddd;

@@ -1,6 +1,8 @@
+//audio player plugin by Simon Goellner
+//codepen.io/simeydotme
 
 $(document).ready( function() {
-    $('article.video').siPlayer(true);
+    $('article.video').siPlayer(false);
 });
 
 
